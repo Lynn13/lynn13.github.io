@@ -1,5 +1,6 @@
 exclude: ["local"]
-url: https://liujinduo.com/
+url: https://liujinduo.com
+permalink: /:categories/:year/:title.html
 markdown: redcarpet
 redcarpet:
     extensions: ["fenced_code_blocks", "no_intra_emphasis", "tables", "autolink", "strikethrough"]

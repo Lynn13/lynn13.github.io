@@ -7,7 +7,7 @@ categories: search
 
 # Trie
 字典树，英文名 trie。
-![Trie](/assets/trie1.jpeg)
+![Trie](/assets/trie1.png)
 
 # KMP
 该算法由 Knuth、Pratt 和 Morris 在 1977 年共同提出。

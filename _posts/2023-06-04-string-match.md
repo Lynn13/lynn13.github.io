@@ -5,7 +5,7 @@ date: 2023-06-04 11:09:11 -0800
 categories: search
 ---
 
-# Trie
+## Trie
 字典树，英文名 trie。
 ![Trie](/assets/trie1.png)
 
@@ -20,9 +20,9 @@ categories: search
 
 #### KMP
 
-# AC自动机
+## AC自动机
 
-# FST
+## FST
 
-# 其他
+## 其他
 https://oi-wiki.org/string/

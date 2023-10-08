@@ -44,6 +44,7 @@ vector<int> prefix_function(string s) {
 #### 优化1
 - 我们发现一个重要的规律：相邻的前缀函数值至多增加1
 - 只需如此优化：当取一个新的可能更大的 p[i+1] 时，必然要求新增的 s[i+1] 也与之对应的字符匹配，即 s[i+1]=s[p[i]], 此时 p[i+1] = p[i]+1
+
 ```
 vector<int> prefix_function(string s) {
   int n = (int)s.length();
@@ -56,7 +57,6 @@ vector<int> prefix_function(string s) {
       }
   return pi;
 }
-
 ```
 
 
@@ -79,7 +79,6 @@ vector<int> prefix_function(string s) {
   }
   return pi;
 }
-
 ```
 
 ### KMP
